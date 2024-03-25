@@ -156,10 +156,10 @@ Step 4: AGGREGATE COLLISIONS BY HEXGRID
             'fill-color': [
                 // Colours depending on Variable
                 'step', ['get', 'COUNT'], '#800026',
-                    10, '#bd0026', 
-                    15, '#e31a1c',
-                    25, '#fc4e2a', 
-                    30, '#fd8d3c'
+                    5, '#bd0026', 
+                    10, '#e31a1c',
+                    15, '#fc4e2a', 
+                    20, '#fd8d3c'
                 ],
             'fill-opacity': 0.5
         }
