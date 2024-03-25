@@ -191,7 +191,7 @@ map.on('mouseleave', 'cycle-pts', () => {
 map.on('click', 'cycle-pts', (e) => {
     new mapboxgl.Popup() //Declare new popup object on each click
         .setLngLat(e.lngLat) //Use method to set coordinates of popup based on mouse click location
-        .setHTML("<b>Injury Type:</b> " + e.features[0].properties.ACCLASS) //Use click event properties to write text for popup
+        .setHTML("<b>Injury Type at </b>" + e.features[0].properties.NEIGHBOURHOOD_158 + "<b>: </b>" + e.features[0].properties.ACCLASS) //Use click event properties to write text for popup
         .addTo(map); //Show popup on map
 });
 
